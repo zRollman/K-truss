@@ -143,7 +143,7 @@ int main(int argc, char** argv) {
 
         if (isReal)
             fscanf(f, "%d %d %lg\n", &idxi, &idxj, &fval);
-        else if (isInteger)//~U~U
+        else if (isInteger)
         {
             fscanf(f, "%d %d %d\n", &idxi, &idxj, &ival);
             fval = ival;
