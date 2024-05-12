@@ -414,7 +414,7 @@ void run(int triangle_k,int r,int sy,int nz,int **triples,int len,int ompn) {
     double starttime = omp_get_wtime();
     isSyc = sy;
     trow = r;
-    omp_n = ompn;//线~K~U
+    omp_n = ompn;
     tk = triangle_k;
     kcount = 0,ncount=0;
     adj_list = (int **) malloc((10+r)*sizeof (int*));
